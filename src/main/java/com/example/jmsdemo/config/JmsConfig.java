@@ -10,6 +10,7 @@ import org.springframework.jms.support.converter.MessageType;
 public class JmsConfig {
 
     public static final String MY_QUEUE = "hello-world";
+    public static final String MY_REQUEST_RESPONSE_QUEUE = "hello-world-pls-respond";
 
     @Bean
     public MessageConverter messageConverter() {
